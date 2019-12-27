@@ -1,0 +1,422 @@
+[
+  {
+    "_id": "3164d5d0-7267-11e8-a2c1-61c515805211",
+    "_type": "dashboard",
+    "_source": {
+      "title": "media SWAP METRICS TIMING GOALS ANALYSIS",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"059ab7e0-7261-11e8-a2c1-61c515805211\",\"panelIndex\":1,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"8add8e50-7261-11e8-a2c1-61c515805211\",\"panelIndex\":2,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"7632a740-7263-11e8-a2c1-61c515805211\",\"panelIndex\":3,\"row\":4,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"147c1dc0-7262-11e8-a2c1-61c515805211\",\"panelIndex\":4,\"row\":4,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"2aeb3b50-7266-11e8-a2c1-61c515805211\",\"panelIndex\":5,\"row\":7,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":true}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"defaultColors\":{\"0 - 120000\":\"rgb(0,104,55)\",\"120000 - 150000\":\"rgb(255,255,190)\",\"150000 - 180000\":\"rgb(165,0,38)\"}}},\"P-2\":{\"vis\":{\"defaultColors\":{\"0 - 120000\":\"rgb(0,104,55)\",\"120000 - 150000\":\"rgb(255,255,190)\",\"150000 - 180000\":\"rgb(165,0,38)\"}}},\"P-3\":{\"vis\":{\"defaultColors\":{\"0 - 120000\":\"rgb(0,104,55)\",\"120000 - 150000\":\"rgb(255,255,190)\",\"150000 - 180000\":\"rgb(165,0,38)\"}}},\"P-4\":{\"vis\":{\"defaultColors\":{\"0 - 120000\":\"rgb(0,104,55)\",\"120000 - 150000\":\"rgb(255,255,190)\",\"150000 - 180000\":\"rgb(165,0,38)\"}}},\"P-5\":{\"vis\":{\"defaultColors\":{\"0 - 10\":\"rgb(255,255,204)\",\"11 - 20\":\"rgb(254,217,118)\",\"21 - 30\":\"rgb(253,141,60)\",\"31 - 45\":\"rgb(227,27,28)\"},\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now/w",
+      "timeFrom": "now/w",
+      "refreshInterval": {
+        "display": "Off",
+        "pause": false,
+        "value": 0
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "9b2bf6a0-8677-11e8-adf2-837efcc5d11e",
+    "_type": "dashboard",
+    "_source": {
+      "title": "media SWAP METRICS BLE TRANSACTION TIME FOR SUCCESSFUL SWAPS",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":0,\"w\":6,\"h\":3,\"i\":\"1\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"e469a550-8673-11e8-adf2-837efcc5d11e\"},{\"panelIndex\":\"2\",\"gridData\":{\"x\":6,\"y\":0,\"w\":6,\"h\":3,\"i\":\"2\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"43536fb0-8674-11e8-adf2-837efcc5d11e\",\"embeddableConfig\":{\"vis\":{\"defaultColors\":{\"0 - 10000\":\"rgb(0,104,55)\",\"10000 - 30000\":\"rgb(255,255,190)\",\"30000 - 60000\":\"rgb(165,0,38)\"},\"colors\":{\"0 - 5000\":\"#3F6833\",\"5000 - 7500\":\"#F9934E\",\"7500 - 10000\":\"#BF1B00\",\"10000 - 30000\":\"#EF843C\",\"30000 - 60000\":\"#BF1B00\"},\"legendOpen\":false}}},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":3,\"w\":12,\"h\":3,\"i\":\"3\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"5991e7b0-8675-11e8-adf2-837efcc5d11e\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"useMargins\":true,\"hidePanelTitles\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "240a8c40-7091-11e8-af7a-2dd91fe731ac",
+    "_type": "dashboard",
+    "_source": {
+      "title": "media mQIS XM1 BP MAX CELL TEMPERATURE",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":4,\"size_y\":3,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"3756ea30-708e-11e8-af7a-2dd91fe731ac\",\"col\":1,\"row\":1},{\"size_x\":4,\"size_y\":3,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"52a3bed0-708e-11e8-af7a-2dd91fe731ac\",\"col\":5,\"row\":1},{\"size_x\":4,\"size_y\":3,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"603f7ac0-708e-11e8-af7a-2dd91fe731ac\",\"col\":9,\"row\":1},{\"size_x\":4,\"size_y\":3,\"panelIndex\":5,\"type\":\"visualization\",\"id\":\"70fbfeb0-708e-11e8-af7a-2dd91fe731ac\",\"col\":1,\"row\":4},{\"size_x\":4,\"size_y\":3,\"panelIndex\":6,\"type\":\"visualization\",\"id\":\"7bb8dda0-708e-11e8-af7a-2dd91fe731ac\",\"col\":5,\"row\":4},{\"size_x\":4,\"size_y\":3,\"panelIndex\":7,\"type\":\"visualization\",\"id\":\"8f827a80-708e-11e8-af7a-2dd91fe731ac\",\"col\":9,\"row\":4},{\"size_x\":4,\"size_y\":3,\"panelIndex\":8,\"type\":\"visualization\",\"id\":\"9e629d50-708e-11e8-af7a-2dd91fe731ac\",\"col\":1,\"row\":7},{\"size_x\":4,\"size_y\":3,\"panelIndex\":9,\"type\":\"visualization\",\"id\":\"aa37a300-708e-11e8-af7a-2dd91fe731ac\",\"col\":5,\"row\":7},{\"size_x\":4,\"size_y\":3,\"panelIndex\":10,\"type\":\"visualization\",\"id\":\"b60b7030-708e-11e8-af7a-2dd91fe731ac\",\"col\":9,\"row\":7},{\"size_x\":4,\"size_y\":3,\"panelIndex\":11,\"type\":\"visualization\",\"id\":\"c29baf90-708e-11e8-af7a-2dd91fe731ac\",\"col\":1,\"row\":10},{\"size_x\":4,\"size_y\":3,\"panelIndex\":12,\"type\":\"visualization\",\"id\":\"cc4d3900-708e-11e8-af7a-2dd91fe731ac\",\"col\":5,\"row\":10},{\"size_x\":4,\"size_y\":3,\"panelIndex\":13,\"type\":\"visualization\",\"id\":\"dc333310-708e-11e8-af7a-2dd91fe731ac\",\"col\":9,\"row\":10},{\"size_x\":4,\"size_y\":3,\"panelIndex\":14,\"type\":\"visualization\",\"id\":\"e8b17110-708e-11e8-af7a-2dd91fe731ac\",\"col\":1,\"row\":13},{\"size_x\":4,\"size_y\":3,\"panelIndex\":15,\"type\":\"visualization\",\"id\":\"f4beebe0-708e-11e8-af7a-2dd91fe731ac\",\"col\":5,\"row\":13},{\"size_x\":4,\"size_y\":3,\"panelIndex\":16,\"type\":\"visualization\",\"id\":\"0073e670-708f-11e8-af7a-2dd91fe731ac\",\"col\":9,\"row\":13},{\"size_x\":12,\"size_y\":3,\"panelIndex\":17,\"type\":\"search\",\"id\":\"9f306ce0-72b8-11e8-a2c1-61c515805211\",\"col\":1,\"row\":16,\"columns\":[\"_source\"],\"sort\":[\"@timestamp\",\"desc\"]}]",
+      "optionsJSON": "{\"darkTheme\":true}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"defaultColors\":{\"10 - 23\":\"rgb(0,104,55)\",\"23 - 27\":\"rgb(255,255,190)\",\"27 - 60\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-2\":{\"vis\":{\"defaultColors\":{\"10 - 23\":\"rgb(0,104,55)\",\"23 - 27\":\"rgb(255,255,190)\",\"27 - 60\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-3\":{\"vis\":{\"defaultColors\":{\"10 - 23\":\"rgb(0,104,55)\",\"23 - 27\":\"rgb(255,255,190)\",\"27 - 60\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-5\":{\"vis\":{\"defaultColors\":{\"10 - 23\":\"rgb(0,104,55)\",\"23 - 27\":\"rgb(255,255,190)\",\"27 - 60\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-6\":{\"vis\":{\"defaultColors\":{\"10 - 23\":\"rgb(0,104,55)\",\"23 - 27\":\"rgb(255,255,190)\",\"27 - 60\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-4\":{\"vis\":{\"defaultColors\":{\"10 - 23\":\"rgb(0,104,55)\",\"23 - 27\":\"rgb(255,255,190)\",\"27 - 60\":\"rgb(165,0,38)\"}}},\"P-7\":{\"vis\":{\"defaultColors\":{\"10 - 23\":\"rgb(0,104,55)\",\"23 - 27\":\"rgb(255,255,190)\",\"27 - 60\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-8\":{\"vis\":{\"defaultColors\":{\"10 - 23\":\"rgb(0,104,55)\",\"23 - 27\":\"rgb(255,255,190)\",\"27 - 60\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-9\":{\"vis\":{\"defaultColors\":{\"10 - 23\":\"rgb(0,104,55)\",\"23 - 27\":\"rgb(255,255,190)\",\"27 - 60\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-10\":{\"vis\":{\"defaultColors\":{\"10 - 23\":\"rgb(0,104,55)\",\"23 - 27\":\"rgb(255,255,190)\",\"27 - 60\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-11\":{\"vis\":{\"defaultColors\":{\"10 - 23\":\"rgb(0,104,55)\",\"23 - 27\":\"rgb(255,255,190)\",\"27 - 60\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-12\":{\"vis\":{\"defaultColors\":{\"10 - 23\":\"rgb(0,104,55)\",\"23 - 27\":\"rgb(255,255,190)\",\"27 - 60\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-13\":{\"vis\":{\"defaultColors\":{\"10 - 23\":\"rgb(0,104,55)\",\"23 - 27\":\"rgb(255,255,190)\",\"27 - 60\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-14\":{\"vis\":{\"defaultColors\":{\"10 - 23\":\"rgb(0,104,55)\",\"23 - 27\":\"rgb(255,255,190)\",\"27 - 60\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-16\":{\"vis\":{\"defaultColors\":{\"10 - 23\":\"rgb(0,104,55)\",\"23 - 27\":\"rgb(255,255,190)\",\"27 - 60\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-15\":{\"vis\":{\"defaultColors\":{\"10 - 23\":\"rgb(0,104,55)\",\"23 - 27\":\"rgb(255,255,190)\",\"27 - 60\":\"rgb(165,0,38)\"},\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-60s",
+      "refreshInterval": {
+        "display": "30 seconds",
+        "pause": false,
+        "section": 1,
+        "value": 30000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "c00a17f0-707d-11e8-af7a-2dd91fe731ac",
+    "_type": "dashboard",
+    "_source": {
+      "title": "media mQIS XM1 CHARGER CURRENT",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"eb424fc0-707b-11e8-af7a-2dd91fe731ac\",\"panelIndex\":1,\"row\":1,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":5,\"id\":\"fe3785a0-707b-11e8-af7a-2dd91fe731ac\",\"panelIndex\":2,\"row\":1,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":9,\"id\":\"142fe960-707c-11e8-af7a-2dd91fe731ac\",\"panelIndex\":3,\"row\":1,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"21bb51a0-707c-11e8-af7a-2dd91fe731ac\",\"panelIndex\":4,\"row\":4,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":5,\"id\":\"32457af0-707c-11e8-af7a-2dd91fe731ac\",\"panelIndex\":5,\"row\":4,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":9,\"id\":\"56f12520-707c-11e8-af7a-2dd91fe731ac\",\"panelIndex\":6,\"row\":4,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"653aad40-707c-11e8-af7a-2dd91fe731ac\",\"panelIndex\":7,\"row\":7,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":5,\"id\":\"74362040-707c-11e8-af7a-2dd91fe731ac\",\"panelIndex\":8,\"row\":7,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":9,\"id\":\"83b9fd20-707c-11e8-af7a-2dd91fe731ac\",\"panelIndex\":9,\"row\":7,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"90b92af0-707c-11e8-af7a-2dd91fe731ac\",\"panelIndex\":10,\"row\":10,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":5,\"id\":\"9c30f570-707c-11e8-af7a-2dd91fe731ac\",\"panelIndex\":11,\"row\":10,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":9,\"id\":\"a8483440-707c-11e8-af7a-2dd91fe731ac\",\"panelIndex\":12,\"row\":10,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"b37ba2c0-707c-11e8-af7a-2dd91fe731ac\",\"panelIndex\":13,\"row\":13,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":5,\"id\":\"cb7d1cf0-707c-11e8-af7a-2dd91fe731ac\",\"panelIndex\":14,\"row\":13,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":9,\"id\":\"daefbbc0-707c-11e8-af7a-2dd91fe731ac\",\"panelIndex\":15,\"row\":13,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"columns\":[\"_source\"],\"id\":\"5d36edf0-72b8-11e8-a2c1-61c515805211\",\"panelIndex\":16,\"row\":16,\"size_x\":12,\"size_y\":3,\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\"}]",
+      "optionsJSON": "{\"darkTheme\":true}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"defaultColors\":{\"0 - 25\":\"rgb(0,104,55)\",\"25 - 30\":\"rgb(255,255,190)\",\"30 - 60\":\"rgb(165,0,38)\"}}},\"P-10\":{\"vis\":{\"defaultColors\":{\"0 - 25\":\"rgb(0,104,55)\",\"25 - 30\":\"rgb(255,255,190)\",\"30 - 60\":\"rgb(165,0,38)\"}}},\"P-11\":{\"vis\":{\"defaultColors\":{\"0 - 25\":\"rgb(0,104,55)\",\"25 - 30\":\"rgb(255,255,190)\",\"30 - 60\":\"rgb(165,0,38)\"}}},\"P-12\":{\"vis\":{\"defaultColors\":{\"0 - 25\":\"rgb(0,104,55)\",\"25 - 30\":\"rgb(255,255,190)\",\"30 - 60\":\"rgb(165,0,38)\"}}},\"P-13\":{\"vis\":{\"defaultColors\":{\"0 - 25\":\"rgb(0,104,55)\",\"25 - 30\":\"rgb(255,255,190)\",\"30 - 60\":\"rgb(165,0,38)\"}}},\"P-14\":{\"vis\":{\"defaultColors\":{\"0 - 25\":\"rgb(0,104,55)\",\"25 - 30\":\"rgb(255,255,190)\",\"30 - 60\":\"rgb(165,0,38)\"}}},\"P-15\":{\"vis\":{\"defaultColors\":{\"0 - 25\":\"rgb(0,104,55)\",\"25 - 30\":\"rgb(255,255,190)\",\"30 - 60\":\"rgb(165,0,38)\"}}},\"P-2\":{\"vis\":{\"defaultColors\":{\"0 - 25\":\"rgb(0,104,55)\",\"25 - 30\":\"rgb(255,255,190)\",\"30 - 60\":\"rgb(165,0,38)\"}}},\"P-3\":{\"vis\":{\"defaultColors\":{\"0 - 25\":\"rgb(0,104,55)\",\"25 - 30\":\"rgb(255,255,190)\",\"30 - 60\":\"rgb(165,0,38)\"}}},\"P-4\":{\"vis\":{\"defaultColors\":{\"0 - 25\":\"rgb(0,104,55)\",\"25 - 30\":\"rgb(255,255,190)\",\"30 - 60\":\"rgb(165,0,38)\"}}},\"P-5\":{\"vis\":{\"defaultColors\":{\"0 - 25\":\"rgb(0,104,55)\",\"25 - 30\":\"rgb(255,255,190)\",\"30 - 60\":\"rgb(165,0,38)\"}}},\"P-6\":{\"vis\":{\"defaultColors\":{\"0 - 25\":\"rgb(0,104,55)\",\"25 - 30\":\"rgb(255,255,190)\",\"30 - 60\":\"rgb(165,0,38)\"}}},\"P-7\":{\"vis\":{\"defaultColors\":{\"0 - 25\":\"rgb(0,104,55)\",\"25 - 30\":\"rgb(255,255,190)\",\"30 - 60\":\"rgb(165,0,38)\"}}},\"P-8\":{\"vis\":{\"defaultColors\":{\"0 - 25\":\"rgb(0,104,55)\",\"25 - 30\":\"rgb(255,255,190)\",\"30 - 60\":\"rgb(165,0,38)\"}}},\"P-9\":{\"vis\":{\"defaultColors\":{\"0 - 25\":\"rgb(0,104,55)\",\"25 - 30\":\"rgb(255,255,190)\",\"30 - 60\":\"rgb(165,0,38)\"}}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-60s",
+      "refreshInterval": {
+        "display": "30 seconds",
+        "pause": false,
+        "section": 1,
+        "value": 30000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "318287d0-7076-11e8-af7a-2dd91fe731ac",
+    "_type": "dashboard",
+    "_source": {
+      "title": "media mQIS XM1 CHARGER VOLTAGE",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"60d5a9a0-7075-11e8-af7a-2dd91fe731ac\",\"panelIndex\":1,\"row\":1,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":5,\"id\":\"742c8780-7075-11e8-af7a-2dd91fe731ac\",\"panelIndex\":2,\"row\":1,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":9,\"id\":\"8f9a78b0-7075-11e8-af7a-2dd91fe731ac\",\"panelIndex\":3,\"row\":1,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"9ea46aa0-7075-11e8-af7a-2dd91fe731ac\",\"panelIndex\":4,\"row\":4,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":5,\"id\":\"c67d8700-7075-11e8-af7a-2dd91fe731ac\",\"panelIndex\":5,\"row\":4,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":9,\"id\":\"4924ae80-7077-11e8-af7a-2dd91fe731ac\",\"panelIndex\":6,\"row\":4,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"5b0edd00-7077-11e8-af7a-2dd91fe731ac\",\"panelIndex\":7,\"row\":7,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":5,\"id\":\"6b612d70-7077-11e8-af7a-2dd91fe731ac\",\"panelIndex\":8,\"row\":7,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":9,\"id\":\"78edce30-7077-11e8-af7a-2dd91fe731ac\",\"panelIndex\":9,\"row\":7,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"854ec030-7077-11e8-af7a-2dd91fe731ac\",\"panelIndex\":10,\"row\":10,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":5,\"id\":\"92525ad0-7077-11e8-af7a-2dd91fe731ac\",\"panelIndex\":11,\"row\":10,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":9,\"id\":\"a0562760-7077-11e8-af7a-2dd91fe731ac\",\"panelIndex\":12,\"row\":10,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"ac022140-7077-11e8-af7a-2dd91fe731ac\",\"panelIndex\":13,\"row\":13,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":5,\"id\":\"b7c65e10-7077-11e8-af7a-2dd91fe731ac\",\"panelIndex\":14,\"row\":13,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":9,\"id\":\"d695b4a0-7075-11e8-af7a-2dd91fe731ac\",\"panelIndex\":15,\"row\":13,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"columns\":[\"_source\"],\"id\":\"5d36edf0-72b8-11e8-a2c1-61c515805211\",\"panelIndex\":16,\"row\":16,\"size_x\":12,\"size_y\":3,\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\"}]",
+      "optionsJSON": "{\"darkTheme\":true}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"defaultColors\":{\"0 - 56\":\"rgb(0,104,55)\",\"56 - 58\":\"rgb(255,255,190)\",\"58 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-10\":{\"vis\":{\"defaultColors\":{\"0 - 56\":\"rgb(0,104,55)\",\"56 - 58\":\"rgb(255,255,190)\",\"58 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-11\":{\"vis\":{\"defaultColors\":{\"0 - 56\":\"rgb(0,104,55)\",\"56 - 58\":\"rgb(255,255,190)\",\"58 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-12\":{\"vis\":{\"defaultColors\":{\"0 - 56\":\"rgb(0,104,55)\",\"56 - 58\":\"rgb(255,255,190)\",\"58 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-13\":{\"vis\":{\"defaultColors\":{\"0 - 56\":\"rgb(0,104,55)\",\"56 - 58\":\"rgb(255,255,190)\",\"58 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-14\":{\"vis\":{\"defaultColors\":{\"0 - 56\":\"rgb(0,104,55)\",\"56 - 58\":\"rgb(255,255,190)\",\"58 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-15\":{\"vis\":{\"defaultColors\":{\"0 - 56\":\"rgb(0,104,55)\",\"56 - 58\":\"rgb(255,255,190)\",\"58 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-2\":{\"vis\":{\"defaultColors\":{\"0 - 56\":\"rgb(0,104,55)\",\"56 - 58\":\"rgb(255,255,190)\",\"58 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-3\":{\"vis\":{\"defaultColors\":{\"0 - 56\":\"rgb(0,104,55)\",\"56 - 58\":\"rgb(255,255,190)\",\"58 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-4\":{\"vis\":{\"defaultColors\":{\"0 - 56\":\"rgb(0,104,55)\",\"56 - 58\":\"rgb(255,255,190)\",\"58 - 100\":\"rgb(165,0,38)\"}}},\"P-5\":{\"vis\":{\"defaultColors\":{\"0 - 56\":\"rgb(0,104,55)\",\"56 - 58\":\"rgb(255,255,190)\",\"58 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-6\":{\"vis\":{\"defaultColors\":{\"0 - 56\":\"rgb(0,104,55)\",\"56 - 58\":\"rgb(255,255,190)\",\"58 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-7\":{\"vis\":{\"defaultColors\":{\"0 - 56\":\"rgb(0,104,55)\",\"56 - 58\":\"rgb(255,255,190)\",\"58 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-8\":{\"vis\":{\"defaultColors\":{\"0 - 56\":\"rgb(0,104,55)\",\"56 - 58\":\"rgb(255,255,190)\",\"58 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-9\":{\"vis\":{\"defaultColors\":{\"0 - 56\":\"rgb(0,104,55)\",\"56 - 58\":\"rgb(255,255,190)\",\"58 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-60s",
+      "refreshInterval": {
+        "display": "30 seconds",
+        "pause": true,
+        "section": 1,
+        "value": 30000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "e3df3310-708f-11e8-af7a-2dd91fe731ac",
+    "_type": "dashboard",
+    "_source": {
+      "title": "media mQIS XM1 BP PACK VOLTAGE",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":4,\"size_y\":3,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"f092b940-708c-11e8-af7a-2dd91fe731ac\",\"col\":1,\"row\":1},{\"size_x\":4,\"size_y\":3,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"fe516680-708c-11e8-af7a-2dd91fe731ac\",\"col\":5,\"row\":1},{\"size_x\":4,\"size_y\":3,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"0b92cd70-708d-11e8-af7a-2dd91fe731ac\",\"col\":9,\"row\":1},{\"size_x\":4,\"size_y\":3,\"panelIndex\":4,\"type\":\"visualization\",\"id\":\"17f8a170-708d-11e8-af7a-2dd91fe731ac\",\"col\":1,\"row\":4},{\"size_x\":4,\"size_y\":3,\"panelIndex\":5,\"type\":\"visualization\",\"id\":\"21e1dcb0-708d-11e8-af7a-2dd91fe731ac\",\"col\":5,\"row\":4},{\"size_x\":4,\"size_y\":3,\"panelIndex\":6,\"type\":\"visualization\",\"id\":\"3786c940-708d-11e8-af7a-2dd91fe731ac\",\"col\":9,\"row\":4},{\"size_x\":4,\"size_y\":3,\"panelIndex\":7,\"type\":\"visualization\",\"id\":\"48629500-708d-11e8-af7a-2dd91fe731ac\",\"col\":1,\"row\":7},{\"size_x\":4,\"size_y\":3,\"panelIndex\":8,\"type\":\"visualization\",\"id\":\"5544c4f0-708d-11e8-af7a-2dd91fe731ac\",\"col\":5,\"row\":7},{\"size_x\":4,\"size_y\":3,\"panelIndex\":9,\"type\":\"visualization\",\"id\":\"600acba0-708d-11e8-af7a-2dd91fe731ac\",\"col\":9,\"row\":7},{\"size_x\":4,\"size_y\":3,\"panelIndex\":10,\"type\":\"visualization\",\"id\":\"6e272940-708d-11e8-af7a-2dd91fe731ac\",\"col\":1,\"row\":10},{\"size_x\":4,\"size_y\":3,\"panelIndex\":11,\"type\":\"visualization\",\"id\":\"7d4e8e40-708d-11e8-af7a-2dd91fe731ac\",\"col\":5,\"row\":10},{\"size_x\":4,\"size_y\":3,\"panelIndex\":12,\"type\":\"visualization\",\"id\":\"8b9caa40-708d-11e8-af7a-2dd91fe731ac\",\"col\":9,\"row\":10},{\"size_x\":4,\"size_y\":3,\"panelIndex\":13,\"type\":\"visualization\",\"id\":\"95106760-708d-11e8-af7a-2dd91fe731ac\",\"col\":1,\"row\":13},{\"size_x\":4,\"size_y\":3,\"panelIndex\":14,\"type\":\"visualization\",\"id\":\"9f6d24f0-708d-11e8-af7a-2dd91fe731ac\",\"col\":5,\"row\":13},{\"size_x\":4,\"size_y\":3,\"panelIndex\":15,\"type\":\"visualization\",\"id\":\"adcb4680-708d-11e8-af7a-2dd91fe731ac\",\"col\":9,\"row\":13},{\"size_x\":12,\"size_y\":3,\"panelIndex\":16,\"type\":\"search\",\"id\":\"9f306ce0-72b8-11e8-a2c1-61c515805211\",\"col\":1,\"row\":16,\"columns\":[\"_source\"],\"sort\":[\"@timestamp\",\"desc\"]}]",
+      "optionsJSON": "{\"darkTheme\":true}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"defaultColors\":{\"0 - 47\":\"rgb(0,104,55)\",\"47 - 58\":\"rgb(165,0,38)\"}}},\"P-2\":{\"vis\":{\"defaultColors\":{\"0 - 47\":\"rgb(0,104,55)\",\"47 - 58\":\"rgb(165,0,38)\"}}},\"P-3\":{\"vis\":{\"defaultColors\":{\"0 - 47\":\"rgb(0,104,55)\",\"47 - 58\":\"rgb(165,0,38)\"}}},\"P-4\":{\"vis\":{\"defaultColors\":{\"0 - 47\":\"rgb(0,104,55)\",\"47 - 58\":\"rgb(165,0,38)\"}}},\"P-5\":{\"vis\":{\"defaultColors\":{\"0 - 47\":\"rgb(0,104,55)\",\"47 - 58\":\"rgb(165,0,38)\"}}},\"P-6\":{\"vis\":{\"defaultColors\":{\"0 - 47\":\"rgb(0,104,55)\",\"47 - 58\":\"rgb(165,0,38)\"}}},\"P-7\":{\"vis\":{\"defaultColors\":{\"0 - 47\":\"rgb(0,104,55)\",\"47 - 58\":\"rgb(165,0,38)\"}}},\"P-8\":{\"vis\":{\"defaultColors\":{\"0 - 47\":\"rgb(0,104,55)\",\"47 - 58\":\"rgb(165,0,38)\"}}},\"P-9\":{\"vis\":{\"defaultColors\":{\"0 - 47\":\"rgb(0,104,55)\",\"47 - 58\":\"rgb(165,0,38)\"}}},\"P-10\":{\"vis\":{\"defaultColors\":{\"0 - 47\":\"rgb(0,104,55)\",\"47 - 58\":\"rgb(165,0,38)\"}}},\"P-11\":{\"vis\":{\"defaultColors\":{\"0 - 47\":\"rgb(0,104,55)\",\"47 - 58\":\"rgb(165,0,38)\"}}},\"P-12\":{\"vis\":{\"defaultColors\":{\"0 - 47\":\"rgb(0,104,55)\",\"47 - 58\":\"rgb(165,0,38)\"}}},\"P-13\":{\"vis\":{\"defaultColors\":{\"0 - 47\":\"rgb(0,104,55)\",\"47 - 58\":\"rgb(165,0,38)\"}}},\"P-14\":{\"vis\":{\"defaultColors\":{\"0 - 47\":\"rgb(0,104,55)\",\"47 - 58\":\"rgb(165,0,38)\"}}},\"P-15\":{\"vis\":{\"defaultColors\":{\"0 - 47\":\"rgb(0,104,55)\",\"47 - 58\":\"rgb(165,0,38)\"}}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-60s",
+      "refreshInterval": {
+        "display": "30 seconds",
+        "pause": false,
+        "section": 1,
+        "value": 30000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "755df490-7444-11e8-a2c1-61c515805211",
+    "_type": "dashboard",
+    "_source": {
+      "title": "media mQIS CHARGER CAN DISCOVERY",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"013bbb10-7444-11e8-a2c1-61c515805211\",\"panelIndex\":1,\"row\":1,\"size_x\":4,\"size_y\":7,\"type\":\"visualization\"},{\"col\":5,\"columns\":[\"_source\"],\"id\":\"314f0320-7444-11e8-a2c1-61c515805211\",\"panelIndex\":2,\"row\":1,\"size_x\":8,\"size_y\":7,\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\"}]",
+      "optionsJSON": "{\"darkTheme\":true}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-10m",
+      "refreshInterval": {
+        "display": "30 seconds",
+        "pause": false,
+        "section": 1,
+        "value": 30000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "4c79d780-72e9-11e8-a2c1-61c515805211",
+    "_type": "dashboard",
+    "_source": {
+      "title": "media mQIS HVAC",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":4,\"size_y\":3,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"2eff42e0-72e8-11e8-a2c1-61c515805211\",\"col\":1,\"row\":1},{\"size_x\":4,\"size_y\":3,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"5509b9c0-72e8-11e8-a2c1-61c515805211\",\"col\":5,\"row\":1},{\"size_x\":4,\"size_y\":3,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"69b922c0-72e8-11e8-a2c1-61c515805211\",\"col\":9,\"row\":1},{\"size_x\":12,\"size_y\":6,\"panelIndex\":4,\"type\":\"search\",\"id\":\"b29b4720-72e8-11e8-a2c1-61c515805211\",\"col\":1,\"row\":4,\"columns\":[\"_source\"],\"sort\":[\"@timestamp\",\"desc\"]}]",
+      "optionsJSON": "{\"darkTheme\":true}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"defaultColors\":{\"0 - 22\":\"rgb(0,104,55)\",\"22 - 26\":\"rgb(255,255,190)\",\"26 - 55\":\"rgb(165,0,38)\"}}},\"P-2\":{\"vis\":{\"defaultColors\":{\"0 - 22\":\"rgb(0,104,55)\",\"22 - 26\":\"rgb(255,255,190)\",\"26 - 55\":\"rgb(165,0,38)\"}}},\"P-3\":{\"vis\":{\"defaultColors\":{\"0 - 22\":\"rgb(0,104,55)\",\"22 - 26\":\"rgb(255,255,190)\",\"26 - 55\":\"rgb(165,0,38)\"}}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-60s",
+      "refreshInterval": {
+        "display": "30 seconds",
+        "pause": false,
+        "section": 1,
+        "value": 30000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "d156afb0-7266-11e8-a2c1-61c515805211",
+    "_type": "dashboard",
+    "_source": {
+      "title": "media mQIS SWAP SUCCESS FAILURE METRICS",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":0,\"w\":8,\"h\":3,\"i\":\"1\"},\"type\":\"visualization\",\"id\":\"7b7f2140-7094-11e8-af7a-2dd91fe731ac\",\"embeddableConfig\":{\"vis\":{\"defaultColors\":{\"0 - 10\":\"rgb(255,255,204)\",\"11 - 20\":\"rgb(254,217,118)\",\"21 - 30\":\"rgb(253,141,60)\",\"31 - 45\":\"rgb(227,27,28)\"},\"legendOpen\":true,\"colors\":{\"0 - 20\":\"#E0752D\",\"20 - 30\":\"#508642\",\"30 - 1,000\":\"#BF1B00\",\"0 - 10\":\"#F2C96D\",\"10 - 20\":\"#447EBC\",\"11 - 20\":\"#9AC48A\",\"21 - 30\":\"#508642\",\"31 - 45\":\"#BF1B00\"}}},\"version\":\"6.2.4\"},{\"panelIndex\":\"2\",\"gridData\":{\"x\":8,\"y\":0,\"w\":4,\"h\":3,\"i\":\"2\"},\"type\":\"visualization\",\"id\":\"4f5c9400-7097-11e8-af7a-2dd91fe731ac\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":true,\"colors\":{\"error\":\"#BF1B00\",\"ok\":\"#3F6833\"}},\"spy\":{\"mode\":{\"name\":null,\"fill\":false}}},\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":3,\"w\":8,\"h\":3,\"i\":\"3\"},\"type\":\"visualization\",\"id\":\"c7165e10-7095-11e8-af7a-2dd91fe731ac\",\"embeddableConfig\":{\"vis\":{\"defaultColors\":{\"0 - 3\":\"rgb(255,255,204)\",\"3 - 45\":\"rgb(254,217,118)\"},\"legendOpen\":true}},\"version\":\"6.2.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":8,\"y\":3,\"w\":4,\"h\":3,\"i\":\"4\"},\"type\":\"visualization\",\"id\":\"b726aa90-7096-11e8-af7a-2dd91fe731ac\",\"version\":\"6.2.4\",\"embeddableConfig\":{\"vis\":{\"colors\":{\"217:Failed to associate BP's with Docks in Station\":\"#E5AC0E\",\"219:Failed to extract BP SoC's in Station Docks: qis.xm.1.sdock.1.battery\":\"#C15C17\"}}}},{\"panelIndex\":\"5\",\"gridData\":{\"x\":0,\"y\":6,\"w\":12,\"h\":3,\"i\":\"5\"},\"type\":\"search\",\"id\":\"ddc87150-72b8-11e8-a2c1-61c515805211\",\"columns\":[\"_source\"],\"sort\":[\"@timestamp\",\"desc\"],\"version\":\"6.2.4\"}]",
+      "optionsJSON": "{\"darkTheme\":true,\"useMargins\":false}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now/d",
+      "timeFrom": "now/d",
+      "refreshInterval": {
+        "display": "10 seconds",
+        "pause": true,
+        "section": 1,
+        "value": 10000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "9baae210-7067-11e8-af7a-2dd91fe731ac",
+    "_type": "dashboard",
+    "_source": {
+      "title": "media mQIS ENERGYMETER",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"24837450-7066-11e8-af7a-2dd91fe731ac\",\"panelIndex\":1,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"478e2010-7063-11e8-af7a-2dd91fe731ac\",\"panelIndex\":4,\"row\":4,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"7e59eaf0-7065-11e8-af7a-2dd91fe731ac\",\"panelIndex\":5,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"size_x\":6,\"size_y\":3,\"panelIndex\":6,\"type\":\"visualization\",\"id\":\"e6cfad00-7073-11e8-af7a-2dd91fe731ac\",\"col\":7,\"row\":4},{\"size_x\":12,\"size_y\":3,\"panelIndex\":7,\"type\":\"search\",\"id\":\"148eec60-72b8-11e8-a2c1-61c515805211\",\"col\":1,\"row\":7,\"columns\":[\"_source\"],\"sort\":[\"@timestamp\",\"desc\"]}]",
+      "optionsJSON": "{\"darkTheme\":true}",
+      "uiStateJSON": "{\"P-1\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}},\"vis\":{\"defaultColors\":{\"0 - 220\":\"rgb(0,104,55)\",\"220 - 250\":\"rgb(255,255,190)\",\"250 - 440\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-2\":{\"vis\":{\"defaultColors\":{\"0 - 40\":\"rgb(0,104,55)\",\"40 - 120\":\"rgb(165,0,38)\"}}},\"P-3\":{\"vis\":{\"defaultColors\":{\"0 - 40\":\"rgb(0,104,55)\",\"40 - 120\":\"rgb(165,0,38)\"}}},\"P-4\":{\"vis\":{\"defaultColors\":{\"0 - 40\":\"rgb(0,104,55)\",\"40 - 120\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-5\":{\"vis\":{\"defaultColors\":{\"48 - 49\":\"rgb(0,104,55)\",\"49 - 51\":\"rgb(255,255,190)\",\"51 - 52\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-6\":{\"vis\":{\"defaultColors\":{\"0 - 0.5\":\"rgb(0,104,55)\",\"0.5 - 0.75\":\"rgb(255,255,190)\",\"0.75 - 1\":\"rgb(165,0,38)\"}}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-60s",
+      "refreshInterval": {
+        "display": "30 seconds",
+        "pause": false,
+        "section": 1,
+        "value": 30000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "f85e8f60-72d4-11e8-a2c1-61c515805211",
+    "_type": "dashboard",
+    "_source": {
+      "title": "media mQIS COMM HEALTH",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"8c58ff90-72b5-11e8-a2c1-61c515805211\",\"panelIndex\":1,\"row\":1,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"c506bbc0-72b5-11e8-a2c1-61c515805211\",\"panelIndex\":2,\"row\":4,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"columns\":[\"_source\"],\"id\":\"91e61730-72b6-11e8-a2c1-61c515805211\",\"panelIndex\":3,\"row\":7,\"size_x\":12,\"size_y\":3,\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\"}]",
+      "optionsJSON": "{\"darkTheme\":true}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"defaultColors\":{\"0 - 1,000\":\"rgb(247,252,245)\"},\"legendOpen\":false}},\"P-2\":{\"vis\":{\"defaultColors\":{\"0 - 60\":\"rgb(255,255,204)\"}}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-1m",
+      "refreshInterval": {
+        "display": "30 seconds",
+        "pause": false,
+        "section": 1,
+        "value": 30000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "e830cec0-7836-11e8-b496-950574ab385a",
+    "_type": "dashboard",
+    "_source": {
+      "title": "media mQIS XM1 BP 14 CHARGING ANALYSIS",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":12,\"size_y\":5,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"2fed5d50-7080-11e8-af7a-2dd91fe731ac\",\"col\":1,\"row\":1},{\"size_x\":12,\"size_y\":2,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"05b6dc70-7835-11e8-b496-950574ab385a\",\"col\":1,\"row\":6}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-15m",
+      "refreshInterval": {
+        "display": "30 seconds",
+        "pause": true,
+        "section": 1,
+        "value": 30000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "e4c32020-c2f1-11e8-87d9-13acc39f7695",
+    "_type": "dashboard",
+    "_source": {
+      "title": "media XM1 DOCK 3 STATISTICS",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"h\":15,\"i\":\"1\",\"w\":24,\"x\":0,\"y\":0},\"id\":\"4e3af1b0-bd96-11e8-be42-bd7a67584d7b\",\"panelIndex\":\"1\",\"type\":\"visualization\",\"version\":\"6.4.0\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":15,\"i\":\"2\",\"w\":24,\"x\":24,\"y\":0},\"id\":\"b926a350-bb13-11e8-a438-25f9a63c3bf1\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"version\":\"6.4.0\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":15,\"i\":\"4\",\"w\":24,\"x\":0,\"y\":15},\"id\":\"92de9f80-bb19-11e8-a438-25f9a63c3bf1\",\"panelIndex\":\"4\",\"type\":\"visualization\",\"version\":\"6.4.0\"}]",
+      "optionsJSON": "{\"darkTheme\":true,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "3cfabe60-c2f2-11e8-87d9-13acc39f7695",
+    "_type": "dashboard",
+    "_source": {
+      "title": "media XM1 DOCK 4 STATISTICS",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"h\":15,\"i\":\"1\",\"w\":24,\"x\":0,\"y\":0},\"id\":\"ab0553f0-bd95-11e8-be42-bd7a67584d7b\",\"panelIndex\":\"1\",\"type\":\"visualization\",\"version\":\"6.4.0\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":15,\"i\":\"2\",\"w\":24,\"x\":0,\"y\":15},\"id\":\"b4893eb0-bb19-11e8-a438-25f9a63c3bf1\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"version\":\"6.4.0\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":15,\"i\":\"3\",\"w\":24,\"x\":24,\"y\":0},\"id\":\"48f13460-bb13-11e8-a438-25f9a63c3bf1\",\"panelIndex\":\"3\",\"type\":\"visualization\",\"version\":\"6.4.0\"}]",
+      "optionsJSON": "{\"darkTheme\":true,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "8a9c0df0-c2f1-11e8-87d9-13acc39f7695",
+    "_type": "dashboard",
+    "_source": {
+      "title": "media XM1 DOCK 2 STATISTICS",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"h\":15,\"i\":\"1\",\"w\":24,\"x\":0,\"y\":0},\"id\":\"2eca65a0-c218-11e8-a2ac-59ab26b89d7b\",\"panelIndex\":\"1\",\"type\":\"visualization\",\"version\":\"6.4.0\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":15,\"i\":\"2\",\"w\":24,\"x\":0,\"y\":15},\"id\":\"596aad20-bb19-11e8-a438-25f9a63c3bf1\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"version\":\"6.4.0\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":15,\"i\":\"3\",\"w\":24,\"x\":24,\"y\":0},\"id\":\"e7275f10-bb13-11e8-a438-25f9a63c3bf1\",\"panelIndex\":\"3\",\"type\":\"visualization\",\"version\":\"6.4.0\"}]",
+      "optionsJSON": "{\"darkTheme\":true,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "b5b6dd40-c2f0-11e8-87d9-13acc39f7695",
+    "_type": "dashboard",
+    "_source": {
+      "title": "media XM1 DOCK 1 STATISTICS",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"h\":15,\"i\":\"1\",\"w\":24,\"x\":0,\"y\":0},\"id\":\"804ec650-c218-11e8-a2ac-59ab26b89d7b\",\"panelIndex\":\"1\",\"type\":\"visualization\",\"version\":\"6.4.0\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":15,\"i\":\"2\",\"w\":24,\"x\":24,\"y\":0},\"id\":\"0b39af70-bb14-11e8-a438-25f9a63c3bf1\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"version\":\"6.4.0\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":15,\"i\":\"4\",\"w\":24,\"x\":0,\"y\":15},\"id\":\"017bb0a0-bb19-11e8-a438-25f9a63c3bf1\",\"panelIndex\":\"4\",\"type\":\"visualization\",\"version\":\"6.4.0\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":15,\"i\":\"5\",\"w\":24,\"x\":24,\"y\":15},\"id\":\"d469c9d0-c2fc-11e8-87d9-13acc39f7695\",\"panelIndex\":\"5\",\"type\":\"visualization\",\"version\":\"6.4.0\"}]",
+      "optionsJSON": "{\"darkTheme\":true,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "ff77c7e0-c2fb-11e8-87d9-13acc39f7695",
+    "_type": "dashboard",
+    "_source": {
+      "title": "media XM1 DOCK 5 STATISTICS",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":15,\"i\":\"1\"},\"version\":\"6.4.0\",\"panelIndex\":\"1\",\"type\":\"visualization\",\"id\":\"93862d50-bd8e-11e8-b53b-1ff6dc3c0656\",\"embeddableConfig\":{}},{\"gridData\":{\"x\":24,\"y\":0,\"w\":24,\"h\":15,\"i\":\"2\"},\"version\":\"6.4.0\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"id\":\"90e50120-bb13-11e8-a438-25f9a63c3bf1\",\"embeddableConfig\":{}},{\"gridData\":{\"x\":0,\"y\":15,\"w\":24,\"h\":15,\"i\":\"3\"},\"version\":\"6.4.0\",\"panelIndex\":\"3\",\"type\":\"visualization\",\"id\":\"2c177a00-bb1a-11e8-a438-25f9a63c3bf1\",\"embeddableConfig\":{}}]",
+      "optionsJSON": "{\"darkTheme\":true,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  }
+]

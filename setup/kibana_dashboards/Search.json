@@ -1,0 +1,542 @@
+[
+  {
+    "_id": "7224c050-0504-11e9-9f34-ebc7cd81c8e3",
+    "_type": "search",
+    "_source": {
+      "title": "HVAC-initial",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\\\"HVAC\\\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"negate\":false,\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"type\":\"phrase\",\"key\":\"media-recordType\",\"value\":\"HVAC-PERIODIC-METRICS\",\"params\":{\"query\":\"HVAC-PERIODIC-METRICS\",\"type\":\"phrase\"},\"disabled\":false,\"alias\":null},\"query\":{\"match\":{\"media-recordType\":{\"query\":\"HVAC-PERIODIC-METRICS\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "91e61730-72b6-11e8-a2c1-61c515805211",
+    "_type": "search",
+    "_source": {
+      "title": "media COMM HEALTH",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"negate\":false,\"index\":\"8bb0dd50-e49a-11e7-859b-b73fda7f2213\",\"type\":\"phrase\",\"key\":\"media-recordType\",\"value\":\"WHEELER-COMM-HEALTH\",\"params\":{\"query\":\"WHEELER-COMM-HEALTH\",\"type\":\"phrase\"},\"disabled\":false,\"alias\":null},\"query\":{\"match\":{\"media-recordType\":{\"query\":\"WHEELER-COMM-HEALTH\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "00e87270-72b9-11e8-a2c1-61c515805211",
+    "_type": "search",
+    "_source": {
+      "title": "media LOGS",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"8bb0dd50-e49a-11e7-859b-b73fda7f2213\",\"key\":\"media-recordType\",\"negate\":false,\"params\":{\"query\":\"WHEELER-LOG-MSG\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"WHEELER-LOG-MSG\"},\"query\":{\"match\":{\"media-recordType\":{\"query\":\"WHEELER-LOG-MSG\",\"type\":\"phrase\"}}}}]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "b29b4720-72e8-11e8-a2c1-61c515805211",
+    "_type": "search",
+    "_source": {
+      "title": "media HVAC CONFIG ALARMS",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"meta\":{\"index\":\"8bb0dd50-e49a-11e7-859b-b73fda7f2213\",\"type\":\"phrases\",\"key\":\"media-recordType\",\"value\":\"\\\"HVAC-CONFIGURATION\\\", HVAC-PERIODIC-METRICS\",\"params\":[\"\\\"HVAC-CONFIGURATION\\\"\",\"HVAC-PERIODIC-METRICS\"],\"negate\":false,\"disabled\":false,\"alias\":null},\"query\":{\"bool\":{\"should\":[{\"match_phrase\":{\"media-recordType\":\"\\\"HVAC-CONFIGURATION\\\"\"}},{\"match_phrase\":{\"media-recordType\":\"HVAC-PERIODIC-METRICS\"}}],\"minimum_should_match\":1}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "9f306ce0-72b8-11e8-a2c1-61c515805211",
+    "_type": "search",
+    "_source": {
+      "title": "media BP PERIODIC METRICS",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"negate\":false,\"index\":\"8bb0dd50-e49a-11e7-859b-b73fda7f2213\",\"type\":\"phrase\",\"key\":\"media-recordType\",\"value\":\"BP-PERIODIC-METRICS\",\"params\":{\"query\":\"BP-PERIODIC-METRICS\",\"type\":\"phrase\"},\"disabled\":false,\"alias\":null},\"query\":{\"match\":{\"media-recordType\":{\"query\":\"BP-PERIODIC-METRICS\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "4eaff360-72d3-11e8-a2c1-61c515805211",
+    "_type": "search",
+    "_source": {
+      "title": "media COMM HEALTH",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"negate\":false,\"index\":\"8bb0dd50-e49a-11e7-859b-b73fda7f2213\",\"type\":\"phrase\",\"key\":\"media-recordType\",\"value\":\"WHEELER-COMM-HEALTH\",\"params\":{\"query\":\"WHEELER-COMM-HEALTH\",\"type\":\"phrase\"},\"disabled\":false,\"alias\":null},\"query\":{\"match\":{\"media-recordType\":{\"query\":\"WHEELER-COMM-HEALTH\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "314f0320-7444-11e8-a2c1-61c515805211",
+    "_type": "search",
+    "_source": {
+      "title": "media CHARGER CAN DISCOVERY",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"media-recordType:\\\"WHEELER-CAN-CHARGER-DISCOVERY\\\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "148eec60-72b8-11e8-a2c1-61c515805211",
+    "_type": "search",
+    "_source": {
+      "title": "media ENERGYMETER PERIODIC METRICS",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"negate\":false,\"index\":\"8bb0dd50-e49a-11e7-859b-b73fda7f2213\",\"type\":\"phrase\",\"key\":\"media-recordType\",\"value\":\"ENERGYMETER-PERIODIC-METRICS\",\"params\":{\"query\":\"ENERGYMETER-PERIODIC-METRICS\",\"type\":\"phrase\"},\"disabled\":false,\"alias\":null},\"query\":{\"match\":{\"media-recordType\":{\"query\":\"ENERGYMETER-PERIODIC-METRICS\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "2a321450-cad5-11e8-98bc-8f6e19fe549f",
+    "_type": "search",
+    "_source": {
+      "title": "BP 12 Charging",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\\\"BP-PERIODIC-METRICS\\\" && \\\"qis.xm.1.sdock.12.battery\\\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "f3c6a170-72b8-11e8-a2c1-61c515805211",
+    "_type": "search",
+    "_source": {
+      "title": "media EVENTS",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"8bb0dd50-e49a-11e7-859b-b73fda7f2213\",\"key\":\"media-recordType\",\"negate\":true,\"params\":{\"query\":\"WHEELER-LOG-MSG\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"WHEELER-LOG-MSG\"},\"query\":{\"match\":{\"media-recordType\":{\"query\":\"WHEELER-LOG-MSG\",\"type\":\"phrase\"}}}}]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "c179fed0-cad6-11e8-98bc-8f6e19fe549f",
+    "_type": "search",
+    "_source": {
+      "title": "DOCK 04 Charging",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\\\"BP-PERIODIC-METRICS\\\" && \\\"qis.xm.1.sdock.4.battery\\\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "fb58fb20-0a68-11e9-af10-13a3e58a47bd",
+    "_type": "search",
+    "_source": {
+      "title": "All Batteries",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "media-txIdKey",
+        "media-data.metrics.packVoltage",
+        "media-data.metrics.soc",
+        "media-data.metrics.state",
+        "media-source.address",
+        "media-data.metrics.serialNumberString",
+        "media-data.metrics.temp4Cell12Pos"
+      ],
+      "sort": [
+        "@timestamp",
+        "asc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\\\"BP-PERIODIC-METRICS\\\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"negate\":true,\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"type\":\"phrase\",\"key\":\"media-source.address\",\"value\":\"WMQISXM1V1-00006\",\"params\":{\"query\":\"WMQISXM1V1-00006\",\"type\":\"phrase\"},\"disabled\":false,\"alias\":null},\"query\":{\"match\":{\"media-source.address\":{\"query\":\"WMQISXM1V1-00006\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "ddc87150-72b8-11e8-a2c1-61c515805211",
+    "_type": "search",
+    "_source": {
+      "title": "media SWAP STATUS PROGRESS",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"8bb0dd50-e49a-11e7-859b-b73fda7f2213\",\"key\":\"media-recordType\",\"negate\":true,\"params\":{\"query\":\"WHEELER-LOG-MSG\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"WHEELER-LOG-MSG\"},\"query\":{\"match\":{\"media-recordType\":{\"query\":\"WHEELER-LOG-MSG\",\"type\":\"phrase\"}}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"8bb0dd50-e49a-11e7-859b-b73fda7f2213\",\"key\":\"media-recordType\",\"negate\":false,\"params\":[\"WHEELER-RFID-SCAN-NOTIFY\",\"SWAP-STATUS-PROGRESS-NOTIFY\"],\"type\":\"phrases\",\"value\":\"WHEELER-RFID-SCAN-NOTIFY, SWAP-STATUS-PROGRESS-NOTIFY\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"media-recordType\":\"WHEELER-RFID-SCAN-NOTIFY\"}},{\"match_phrase\":{\"media-recordType\":\"SWAP-STATUS-PROGRESS-NOTIFY\"}}]}}}]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "5d36edf0-72b8-11e8-a2c1-61c515805211",
+    "_type": "search",
+    "_source": {
+      "title": "media CHARGER STATUS",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"negate\":false,\"index\":\"8bb0dd50-e49a-11e7-859b-b73fda7f2213\",\"type\":\"phrase\",\"key\":\"media-recordType\",\"value\":\"WHEELER-CHARGER-STATUS\",\"params\":{\"query\":\"WHEELER-CHARGER-STATUS\",\"type\":\"phrase\"},\"disabled\":false,\"alias\":null},\"query\":{\"match\":{\"media-recordType\":{\"query\":\"WHEELER-CHARGER-STATUS\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "1e256670-0e79-11e9-a13a-f399a513a39d",
+    "_type": "search",
+    "_source": {
+      "title": "Dispensing criteria query station 6",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "media-source.address",
+        "media-data.metrics.soc",
+        "media-data.metrics.tempMaxCellTemp",
+        "media-data.metrics.packVoltage"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\\\"BP-PERIODIC-METRICS\\\"\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "44e186a0-0e64-11e9-a13a-f399a513a39d",
+    "_type": "search",
+    "_source": {
+      "title": "Swap report",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "media-data.swapmetrics.failureCode",
+        "media-data.swapmetrics.failureReason",
+        "media-txIdKey"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"4b1e0120-0a80-11e9-96f1-21af38e7db46\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"media-recordType:\\\"WHEELER-SWAP-METRICS\\\" AND error\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "677752a0-cad8-11e8-98bc-8f6e19fe549f",
+    "_type": "search",
+    "_source": {
+      "title": "DOCK 06 Charging",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\\\"BP-PERIODIC-METRICS\\\" && \\\"qis.xm.1.sdock.6.battery\\\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "e0ae8a60-cad5-11e8-98bc-8f6e19fe549f",
+    "_type": "search",
+    "_source": {
+      "title": "DOCK 01 Charging",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\\\"BP-PERIODIC-METRICS\\\" && \\\"qis.xm.1.sdock.1.battery\\\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "0cdd64f0-cad9-11e8-98bc-8f6e19fe549f",
+    "_type": "search",
+    "_source": {
+      "title": "DOCK 07 Charging",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\\\"BP-PERIODIC-METRICS\\\" && \\\"qis.xm.1.sdock.7.battery\\\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "8bda9740-cada-11e8-98bc-8f6e19fe549f",
+    "_type": "search",
+    "_source": {
+      "title": "DOCK 08 Charging",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\\\"BP-PERIODIC-METRICS\\\" && \\\"qis.xm.1.sdock.8.battery\\\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "ba2d6aa0-cada-11e8-98bc-8f6e19fe549f",
+    "_type": "search",
+    "_source": {
+      "title": "DOCK 09 Charging",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\\\"BP-PERIODIC-METRICS\\\" && \\\"qis.xm.1.sdock.9.battery\\\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "951dd5e0-cad7-11e8-98bc-8f6e19fe549f",
+    "_type": "search",
+    "_source": {
+      "title": "DOCK 05 Charging",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\\\"BP-PERIODIC-METRICS\\\" && \\\"qis.xm.1.sdock.5.battery\\\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "f1ca2c00-cada-11e8-98bc-8f6e19fe549f",
+    "_type": "search",
+    "_source": {
+      "title": "DOCK 10 Charging",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"df470ba0-ac4b-11e8-81c6-4de59a17a8d3\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\\\"BP-PERIODIC-METRICS\\\" && \\\"qis.xm.1.sdock.10.battery\\\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  }
+]

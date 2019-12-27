@@ -1,0 +1,16 @@
+mqis:
+	serial_number: WMQISXM1V1-0000x
+        serial_number_left: WMQISXM2V1-0000x
+        serial_number_right: WMQISXM3V1-0000x       
+    Location: HAL
+    Zone: Bengaluru
+dokcer:
+    ip: 192.168.1.2
+    services:
+        kibana: 5601
+        elasticsearch: 9200
+        elasticsearch_cluster: 9300
+        ui: 1338
+        zookeeper: 2181
+        kafka: 9092
+        logstash: TBD

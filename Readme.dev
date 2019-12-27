@@ -1,0 +1,17 @@
+Actions to be taken when docker went through an improper shutdown and ES DB shards are not turning yellow:
+
+1:start the container
+2:goto src
+3:start startallservices
+4:wait for ES to start
+5:stop the startallservices when ES gets started(ctrl c the start all)
+6:Run the following command to check if ES got started 
+curl -XGET localhost:9200/_cat/indeices?v | more 
+7:go to ES location
+/var/lib/elasticsearch
+8:check log files
+9: if something is corrupted , run the following command
+mv node node.corrupt
+10:start container again
+11:re-import jsons for dashboards
+

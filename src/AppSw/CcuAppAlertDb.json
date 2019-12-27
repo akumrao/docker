@@ -1,0 +1,7 @@
+{
+"alert-definitions" : [
+	{ "alertid":"mQis-Charger-Disable", "category" : "mQis-Charging-Operations", "level": "alert", "rca": "This alert is trigerred whenever there is a charger fault that requires automated CCU intervention to stop/start the charger.", "action":"Alert the Station Attendant and Cloud Operations team to possibly quarantine the Charger" },
+	{ "alertid":"mQis-Charger-Reset", "category" : "mQis-Charging-Operations", "level": "critical", "rca": "This alert is trigerred whenever there is a charger fault that requires automated CCU intervention to reset the charger.", "action":"Alert the Station Attendant and Cloud Operations team to possibly quarantine the Charger" },
+	{ "alertid":"ups-battery-critical", "category" : "ups-Safety-Operations", "level": "alert", "rca": "This alert is trigerred when ups battry remains 5 percent", "action":"Alert the Station Attendant and Cloud Operations team to attend to the power fault" }
+	]
+}

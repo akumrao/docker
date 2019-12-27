@@ -1,0 +1,2 @@
+screen -t reverseSSH  /usr/bin/python3 /home/media/docker/utilities/reverse_ssh/rSSHmainatainer.py
+screen -t bash-1 bash

@@ -1,4 +1,4 @@
-# CCU Dockerfile
+# MediaServer with Kafaka Dockerfile
 
 # Base system
 FROM ubuntu:18.04
@@ -38,6 +38,7 @@ RUN apt-get install -y collectd collectd-dev collectd-utils libcollectdclient-de
 #RUN apt-get install -y gradle
 
 # jsoncpp
+RUN apt-get update
 RUN apt-get install -y libjsoncpp1 libjsoncpp-dev libjsoncpp-doc
 
 # kafka libs
@@ -55,7 +56,7 @@ RUN apt-get install -y apt-transport-https
 #RUN echo "deb http://www.apache.org/dist/cassandra/debian 311x main" | tee -a /etc/apt/sources.list.d/cassandra.sources.list
 #RUN curl https://www.apache.org/dist/cassandra/KEYS | apt-key add -
 
-RUN curl https://packages.elastic.co/GPG-KEY-elasticsearch | apt-key add -
+RUN curl -fsSL https://packages.elastic.co/GPG-KEY-elasticsearch | apt-key add -
 RUN echo "deb https://artifacts.elastic.co/packages/6.x/apt stable main" | tee -a /etc/apt/sources.list.d/elastic-6.x.list
 
 #RUN echo "deb https://packagecloud.io/grafana/stable/debian/ jessie main" | tee -a /etc/apt/sources.list.d/grafana.sources.list
@@ -87,20 +88,20 @@ RUN apt-get install -y filebeat logstash kibana metricbeat
 #RUN add-apt-repository ppa:aziotsdklinux/ppa-azureiot
 #RUN apt-get update
 #RUN apt-get install -y azure-iot-sdk-c-dev
-RUN apt-get install -y libcurl4-openssl-dev libssl-dev uuid-dev
-RUN git clone --recursive https://github.com/Azure/azure-iot-sdk-c.git
-RUN cd azure-iot-sdk-c && \
-    mkdir cmake && \
-    cd cmake && \
-    cmake -DCMAKE_BUILD_TYPE=Debug .. && \
-    cmake --build . -- -j2 
+#RUN apt-get install -y libcurl4-openssl-dev libssl-dev uuid-dev
+#RUN git clone --recursive https://github.com/Azure/azure-iot-sdk-c.git
+#RUN cd azure-iot-sdk-c && \
+#    mkdir cmake && \
+#  #  cd cmake && \
+#    cmake -DCMAKE_BUILD_TYPE=Debug .. && \
+#    cmake --build . -- -j2 
 
 
 # BLESuite https://github.com/nccgroup/BLESuite
-RUN apt-get install -y python-dev python-pip
-RUN apt-get install -y libglib2.0-0 libglib2.0-bin libglib2.0-dev libglib2.0-dev
-RUN pip install gattlib
-RUN pip install git+https://github.com/nccgroup/BLESuite
+#RUN apt-get install -y python-dev python-pip
+#RUN apt-get install -y libglib2.0-0 libglib2.0-bin libglib2.0-dev libglib2.0-dev
+#RUN pip install gattlib
+#RUN pip install git+https://github.com/nccgroup/BLESuite
 
 RUN apt-get install -y unzip
 # libblepp
@@ -115,6 +116,7 @@ RUN apt-get install -y libtool automake autoconf autogen
 
 
 # cppkafka
+RUN apt-get install -y libssl-dev
 RUN curl -L -o cppkafka-master.zip https://github.com/mfontanini/cppkafka/archive/master.zip
 RUN unzip cppkafka-master.zip && \
     cd cppkafka-master && \
@@ -130,7 +132,7 @@ RUN unzip rapidjson-master.zip && cd rapidjson-master && \
     make -j install
 
 # kafka
-RUN curl -L http://www-us.apache.org/dist/kafka/1.1.1/kafka_2.11-1.1.1.tgz -o kafka_2.11-1.1.1.tgz
+RUN curl -L https://archive.apache.org/dist/kafka/1.1.1/kafka_2.11-1.1.1.tgz -o kafka_2.11-1.1.1.tgz
 RUN tar xvzf kafka_2.11-1.1.1.tgz
 RUN cd kafka_2.11-1.1.1 && sed -i 's/broker.id=0/broker.id=1/' config/server.properties && \
     echo "\ncontrolled.shutdown.enable=true" >> config/server.properties
@@ -204,9 +206,9 @@ RUN ldconfig -v
 
 # Configure elasticsearch
 RUN sed -i \
-	-e 's/#cluster.name: my-application/cluster.name: SunM-CCU-ES/' \
+	-e 's/#cluster.name: my-application/cluster.name: media-doc-ES/' \
 	-e 's/#bootstrap.memory_lock: true/bootstrap.memory_lock: true/g' \
-	-e 's/#network.host: 192.168.0.1/http.host: 0.0.0.0/' \
+	-e 's/#network.host: 192.168.0.10/http.host: 0.0.0.0/' \
 	 /etc/elasticsearch/elasticsearch.yml
 RUN sed -i \
 	-e 's/-Xms1g/-Xms6g/' \
@@ -220,8 +222,8 @@ RUN sed -i \
 	 /etc/kibana/kibana.yml
 
 # Configure logstash
-COPY src/config/SunM-CCU-Logstash.conf /etc/logstash/conf.d/
-COPY src/config/hosts.ccu /etc/hosts.ccu
+COPY src/config/media-doc-Logstash.conf /etc/logstash/conf.d/
+COPY src/config/hosts.docker /etc/hosts.docker
 
 # set default java environment variable
 # TODO: Move this to after java install 
@@ -234,4 +236,4 @@ COPY src/config/hosts.ccu /etc/hosts.ccu
 # WORKDIR ${SRC}
 # ADD src ${SRC}
 # VOLUME src
-WORKDIR /ccu
+WORKDIR /docker

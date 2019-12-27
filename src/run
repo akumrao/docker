@@ -1,0 +1,33 @@
+#!/bin/bash
+
+if [ $(echo $1 | cut -c1-8) == "LOGFILE=" ]; then
+    LOGFILE=$(echo -en $1 | cut -c9-)
+    shift
+fi
+
+LOCATION="${1}"
+shift
+
+set -x
+
+cd /ccu/src/
+export PATH=.:${PATH}
+cd "${LOCATION}"
+
+# Enable core dumps
+ulimit -c unlimited
+echo "core.%e.%p" > /proc/sys/kernel/core_pattern
+
+# Run program forever
+RESTART_TIME=1
+while sleep ${RESTART_TIME}; do
+        trap "Caught signal" SIGINT SIGTERM
+        if [ "${LOGFILE}" != "" ]; then
+            $* | tee -a ${LOGFILE}
+        else
+            $*
+        fi
+        trap - SIGINT SIGTERM
+        echo $* exited... restarting in ${RESTART_TIME} seconds
+done
+

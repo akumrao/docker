@@ -1,0 +1,42 @@
+{
+"UPS-GET-SNMP" : [
+	{ "ip": "192.168.1.113", "port": "161","polltime_secs":80},
+	{ "name":"upsBatteryStatus", "oid":"iso.3.6.1.2.1.33.1.2.1.0", "action":"None", "des":"(1-unknown, 2-batteryNormal, 3-batteryLow, 4-batteryDepleted)"},
+	{ "name":"upsSecondsOnBattery", "oid":"iso.3.6.1.2.1.33.1.2.2.0", "action":"None", "des":"Seconds elapsed time since the UPS last switched to battery power"},
+	{ "name":"upsEstimatedMinutesRemaining", "oid":"iso.3.6.1.2.1.33.1.2.3.0", "action":"None", "des":"Battery charge remaining"}, 
+	{ "name":"upsInputVoltage", "oid":"iso.3.6.1.2.1.33.1.3.3.1.3.1", "action":"None", "des":"Ups input voltage"}, 
+	{ "name":"upsEstimatedChargeRemaining_percent", "oid":"iso.3.6.1.2.1.33.1.2.4.0", "action":"Alert", "iflesser":"18", "des":"UPS Percentage Battery charge remaining is very low"},
+	{ "name":"upsEstimatedChargeRemaining_percent", "oid":"iso.3.6.1.2.1.33.1.2.4.0", "action":"Alert", "iflesser":"12", "and":"upsInputVoltage", "equal":"0", "des":"UPS Battery SOC is very low, initiating CCU shutdown"}, 
+	{ "name":"upsBatteryVoltage", "oid":"iso.3.6.1.2.1.33.1.2.5.0", "action":"None", "des":"Magnitude of the present battery voltage."}, 
+	{ "name":"upsBatteryTemperature_decCel" , "oid":"iso.3.6.1.2.1.33.1.2.7.0", "action":"None", "des":"Temperature at or near the UPS Battery casing"}
+		],
+
+"UPS-GET-Trap" : [
+	{ "ip": "0.0.0.0",  "port": "udp:162" },
+	{ "name":"upsAlarmBatteryBad", "action":"None"},
+	{ "name":"upsAlarmOnBattery", "action":"None"},
+	{ "name":"upsAlarmLowBattery", "action":"None"},
+	{ "name":"upsAlarmDepletedBattery", "action":"None"},
+	{ "name":"upsAlarmTempBad", "action":"None"},
+	{ "name":"upsAlarmInputBad", "action":"None"},
+	{ "name":"upsAlarmOutputBad", "action":"None"},
+	{ "name":"upsAlarmOutputOverload", "action":"None"},
+	{ "name":"upsAlarmOnBypass", "action":"None"},
+	{ "name":"upsAlarmBypassBad", "action":"None"},
+	{ "name":"upsAlarmOutputOffAsRequested", "action":"None"},
+	{ "name":"upsAlarmUpsOffAsRequested", "action":"None"},
+	{ "name":"upsAlarmChargerFailed", "action":"None"},
+	{ "name":"upsAlarmUpsOutputOff", "action":"None"},
+	{ "name":"upsAlarmUpsSystemOff", "action":"None"},
+	{ "name":"upsAlarmFanFailure", "action":"None"},
+	{ "name":"upsAlarmFuseFailure", "action":"None"},
+	{ "name":"upsAlarmGeneralFault", "action":"None"},
+	{ "name":"upsAlarmDiagnosticTestFailed", "action":"None"},
+	{ "name":"upsAlarmCommunicationsLost", "action":"None"},
+	{ "name":"upsAlarmAwaitingPower", "action":"None"},
+	{ "name":"upsAlarmShutdownPending", "action":"None"},
+	{ "name":"upsAlarmShutdownImminent", "action":"None"},
+	{ "name":"upsAlarmTestInProgre", "action":"None"}
+
+		]
+}

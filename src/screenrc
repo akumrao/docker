@@ -1,0 +1,5 @@
+# CCU Infrastructure and Communication 
+screen -t bash-1 bash
+screen -t bash-2 bash
+screen -t bash-3 bash
+

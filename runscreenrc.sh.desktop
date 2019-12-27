@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/media/docker/runscreenrc.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_IN]=media-doc screen
+Name=media-doc Screen
+Comment[en_IN]=
+Comment=
