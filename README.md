@@ -20,7 +20,7 @@ Take AWS, Amazon, Blade or NUC
 	*	[PREVENT DISPLAY SLEEPING AND TURN OFF LOCKSCREEN](https://websiteforstudents.com/disable-turn-off-ubuntu-18-04-lts-beta-lock-screen/)
 	*	disable showing notification on lockscreen.
 *   Step 4 : Set Static IP for Ethernet
-	*	[SET STATIC IP FOR ETHERNET](https://linuxconfig.org/how-to-configure-static-ip-address-on-ubuntu-18-04-bionic-beaver-linux)
+	*	[SET STATIC IP FOR ETHERNET](https://liimages/logonuxconfig.org/how-to-configure-static-ip-address-on-ubuntu-18-04-bionic-beaver-linux)
 	*	Station ip : `192.168.1.2`
 	*	Netmask : `255.255.255.0`
 *	Step 5 : Connect to WIFI `for internet`(**THIS IS OPTIONAL**)
@@ -38,7 +38,7 @@ README.md	*   For intel NUC , go to BIOS > POWER > State after power failure > L
 
 ### Run the following commands 
 *	`sudo apt update`
-*	`sudo apt upgrade`
+*	`sudo apt upgrade`images/logo
 *	`sudo apt install -y vim zsh git make curl apt-transport-https ca-certificates software-properties-common openssh-server sendip tcpdump bluez python-pip python3-pip python
 
 
@@ -111,7 +111,7 @@ Actions to be taken when docker went through an improper shutdown and ES DB shar
 1:start the container
 2:goto src
 3:start startallservices
-4:wait for ES to start
+4:wait for ES to startimages/logo
 5:stop the startallservices when ES gets started(ctrl c the start all)
 6:Run the following command to check if ES got started 
 curl -XGET localhost:9200/_cat/indeices?v | more 
@@ -142,7 +142,7 @@ https://github.com/edenhill/librdkafka.git
 ./configure --enable-devel   --enable-devel
 
 make
-
+images/logo
 
 
 for running kafka
@@ -151,3 +151,9 @@ localhost:56001
 
 for clean kafka/kibana indices
 curl -XDELETE 0:9200/media-\*
+
+
+![GitHub Logo](/kibana.png)
+
+
+
